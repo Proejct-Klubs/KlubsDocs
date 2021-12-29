@@ -1,6 +1,6 @@
 # PFP Registration
 
-### **PFP 프로젝트 등록 화면**
+## **PFP 프로젝트 등록 화면**
 
 PFP 프로젝트 등록 화면 접속 시, 아래와 같은 세가지 메뉴가 뜨게 됩니다.
 
@@ -8,7 +8,7 @@ Link - [http://klu.bs/pfp/add](http://klu.s/pfp/add)
 
 ![Klubs PFP Registration Main Page](../.gitbook/assets/17L56Ok2S28Si-HmyqcjWQw.png)
 
-**[KIP-17 Mintable을 상속한 PFP 등록](https://klu.bs/pfp/add-by-minter)**
+### **[KIP-17 Mintable을 상속한 PFP 등록](https://klu.bs/pfp/add-by-minter)**
 ```
 pragma solidity ^0.5.6;
 
@@ -36,7 +36,7 @@ contract DogeSoundClubMate is KIP17Full("DOGESOUNDCLUB MATES", "MATE"), KIP17Min
 트랜젝션이 발생한 이후 다음과 같은 메시지가 뜨게 된다면, 정상적으로 등록이 완료된 것입니다.
 
 
-**Ownable를 상속한 PFP 등록**
+### **[Ownable를 상속한 PFP 등록](http://klu.bs/pfp/add-by-pfp-owner)**
 ```
 pragma solidity ^0.5.6;
 
@@ -65,7 +65,7 @@ contract CBKMint is Ownable {
 
 트랜잭션이 완료되고 다음과 같이 메시지가 뜨면, 정상적으로 등록이 완료된 것입니다.
 
-**[두가지 다 상속하지 않는 PFP 등록](http://klu.bs/pfp/propose)**
+### **[두가지 다 상속하지 않는 PFP 등록](http://klu.bs/pfp/propose)**
 
 KIP17Mintable나 Ownable을 상속하지 않은 경우에 선택하는 메뉴입니다. 둘 중 하나라도 상속한 경우 앞의 2개의 메뉴를 선택하시기 바랍니다.
 
